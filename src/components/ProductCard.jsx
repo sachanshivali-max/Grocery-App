@@ -38,7 +38,7 @@ const ProductCard = ({product}) => {
                                 <button onClick={() => setCount((prev) => Math.max(prev - 1, 0))} className="cursor-pointer text-md px-2 h-full" >
                                     -
                                 </button>
-                                <span className="w-5 text-center">{cartItems[product._id]}</span>
+                                <span className="w-5 text-center">{cartItems[product]}</span>
                                 <button onClick={() => setCount((prev) => prev + 1)} className="cursor-pointer text-md px-2 h-full" >
                                     +
                                 </button>
